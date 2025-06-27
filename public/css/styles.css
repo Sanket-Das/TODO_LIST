@@ -1,0 +1,137 @@
+html {
+    background-color: #E4E9FD;
+    background-image: -webkit-linear-gradient(65deg, #A683E3 50%, #E4E9FD 50%);
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: #000;
+    font-family: cursive;
+    padding: 10px;
+    text-align: center;
+}
+
+.box {
+    max-width: 500px;
+    margin: 50px auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+    padding: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 1px solid #F1F1F1;
+    gap: 10px;
+}
+
+.item:last-child {
+    border-bottom: none;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+    transform: scale(1.2);
+}
+
+input:checked + p {
+    text-decoration: line-through;
+    text-decoration-color: #A683E3;
+}
+
+p {
+    margin: 0;
+    font-size: 18px;
+    color: #00204a;
+    flex: 1;
+}
+
+form {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    margin: 0;
+}
+
+form input[type="text"] {
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    width: 180px;
+    background: #f9f9f9;
+}
+
+form input[type="text"]:focus {
+    outline: none;
+    border-color: #A683E3;
+    box-shadow: 0 0 5px #A683E3;
+}
+
+button {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: #A683E3;
+    color: #fff;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #8e63d9;
+}
+
+#todoForm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+input[type="text"]::placeholder {
+    color: grey;
+    opacity: 1;
+}
+
+.header {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    padding: 30px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 2.2rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.header p {
+    margin: 8px 0 0;
+    font-size: 1rem;
+    color: #bdc3c7;
+}
+
+.footer {
+    background-color: #f1f1f1;
+    color: #555;
+    padding: 15px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -2px 6px rgba(0,0,0,0.1);
+}
