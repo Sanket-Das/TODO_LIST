@@ -14,7 +14,7 @@ A simple, full-stack To-Do List web application that lets users create, read, up
 
 ## 📸 Preview
 
-![App Screenshot](./Screenshot 2025-06-28 at 2.24.32 PM.png) <!-- Replace with actual image or remove -->
+![App Screenshot](Screenshot 2025-06-28 at 2.24.32 PM.png) <!-- Replace with actual image or remove -->
 
 ## 🛠️ Tech Stack
 
