@@ -14,7 +14,7 @@ A simple, full-stack To-Do List web application that lets users create, read, up
 
 ## 📸 Preview
 
-![App Screenshot]() <!-- Replace with actual image or remove -->
+![App Screenshot](./Screenshot 2025-06-28 at 2.24.32 PM.png) <!-- Replace with actual image or remove -->
 
 ## 🛠️ Tech Stack
 
@@ -96,3 +96,7 @@ Visit `http://localhost:3000` in your browser.
 Pull requests are welcome. For major changes, open an issue first to discuss what you’d like to change.
 
 ```
+
+1. git add .
+2. git commit -m "mention changes"
+3. git push origin main 
